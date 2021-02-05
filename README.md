@@ -1,2 +1,2 @@
 # franklampardtributepage
-A tribute page of Frank Lampard's outlining Frank Lampard's tenure as manger at Chelsea Football Club
+A tribute page for Frank Lampard - outlining his tenure as manger at Chelsea Football Club. 
