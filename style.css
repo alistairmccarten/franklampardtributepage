@@ -1,0 +1,110 @@
+*{
+    margin: 0px; 
+    box-sizing: border-box;
+}
+nav{
+    padding-top: 20px;
+    background-color: black;
+    position: fixed; 
+}
+ul{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+section{
+    position: relative;   
+    margin: 0; 
+    background-color: black;
+    color: blue;
+    height: 100vh; 
+    width: 100%;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 220px; 
+    letter-spacing: -15px;  
+    line-height: 200px; 
+    text-transform: uppercase;
+}
+h2{ 
+    font-size: 30px; 
+}
+#header{
+    padding: 20px;  
+}
+#subtext-container{
+    width: 49%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    padding-left: 10px; 
+    padding-top: 20px; 
+}
+#subtext-block{
+    height: 10px; 
+    width: 250px; 
+    background-color: white; 
+}
+#description{
+    width: 49%; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    padding-left: 10px; 
+    padding-top: 20px; 
+    text-align: justify; 
+    color: white; 
+}
+#scroll-down-container{
+    text-align: center;
+    width: 50%; 
+    padding-top: 40px; 
+    color: gray; 
+}
+#scroll-down-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.fa-arrow-down{
+    padding-top: 10px; 
+    font-size: 30px; 
+}
+#header-image{
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    right: 0;  
+}
+
+/* Timeline Section */
+
+#vertical-ruler{
+    position: relative; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+#vertical-ruler::after{
+    content: ''; 
+    position: absolute; 
+    width: 6px; 
+    background-color: white;
+    top: 0; 
+    bottom: 0; 
+    left: 50%; 
+    margin-left: -3px; 
+}
